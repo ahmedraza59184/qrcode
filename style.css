@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(212, 45%, 89%)
+}
+
+.border-bx {
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+  background-color: #ffffff;
+  height: 503px;
+  width: 319px;
+  margin: 170px 475px 170px 475px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.s-box {
+  display: flexbox;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.qr-img {
+  margin: 17px;
+  border-radius: 14px;
+}
+
+.paragraph {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+  margin-left: 42px;
+  flex-wrap: wrap;
+}
+
+.caption {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  /* margin-top: 24px; */
+  margin: 20px;
+  margin-left: 41px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.attribution {
+  font-size: 13px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/****MEDIA QUUERIES /****
+/* If the screen size is 600px wide or less, hide the element */
+@media only screen and (max-width: 1440px) {
+   div, body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/* @media only screen and (max-width: 375px) {
+  div.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+} */
+/* - Mobile: 375px
+- Desktop: 1440px */
